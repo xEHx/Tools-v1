@@ -47,7 +47,7 @@ echo $me "      ¶¶  ¶¶                                ¶¶  ¶¶       "
 echo $me "       ¶¶¶¶                                  ¶¶¶¶        "
 echo $me ""
 echo $me ""
-figlet xEHx|lolcat
+figlet xEHx official|lolcat
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $i "CREATOR  : xEHx"
 echo $i "TOOLS    : INSTALLER (7 tools)"
