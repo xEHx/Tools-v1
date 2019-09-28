@@ -71,7 +71,7 @@ echo $cy "[7]"$cy" Camera Hack"
 echo "==================================================" 
 echo $cy "[8]"$me" Web Deface"
 echo "=================================================="
-echo $cy "[9]"$pu" Vuln Web Checker"
+echo $cy "[9]"$pu" Deface Script Maker"
 echo "=================================================="
 echo $cy "[10]"$me" EXIT"
 echo "==================================================" 
@@ -151,10 +151,10 @@ fi
 if [ $pil = 9 ]
 then
 clear
-git clone https://github.com/zigoo0/webpwn3r
-cd webpwn3r
-chmod +x *
-python2 scan.py
+git clone https://github.com/4L13199/LITESCRIPT
+cd LITESCRIPT
+chmod 777 LITESCRIPT.py
+python2 LITESCRIPT.py
 fi
 
 if [ $pil = 10 ]
