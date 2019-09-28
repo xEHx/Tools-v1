@@ -71,7 +71,9 @@ echo $cy "[7]"$cy" Camera Hack"
 echo "==================================================" 
 echo $cy "[8]"$me" Web Deface"
 echo "=================================================="
-echo $cy "[9]"$me" EXIT"
+echo $cy "[9]"$pu" Vuln Web Checker"
+echo "=================================================="
+echo $cy "[10]"$me" EXIT"
 echo "==================================================" 
 echo 
 echo 
@@ -146,7 +148,16 @@ chmod 777 webdav77.sh
 bash install.sh
 fi
 
-if [ $pil = 9 ]
+if [ $pil = 8 ]
+then
+clear
+git clone https://github.com/zigoo0/webpwn3r
+cd webpwn3r
+chmod +x *
+python2 scan.py
+fi
+
+if [ $pil = 10 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
