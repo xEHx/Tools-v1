@@ -47,7 +47,6 @@ echo $me "      ¶¶  ¶¶                                ¶¶  ¶¶       "
 echo $me "       ¶¶¶¶                                  ¶¶¶¶        "
 echo $me ""
 echo $me ""
-figlet xEHx official|lolcat
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $i "CREATOR  : xEHx"
 echo $i "TOOLS    : INSTALLER (7 tools)"
@@ -70,7 +69,9 @@ echo $cy "[6]"$pu" Trap Project"
 echo "==================================================" 
 echo $cy "[7]"$cy" Camera Hack"
 echo "==================================================" 
-echo $cy "[8]"$me" EXIT"
+echo $cy "[8]"$me" Web Deface"
+echo "=================================================="
+echo $cy "[9]"$me" EXIT"
 echo "==================================================" 
 echo 
 echo 
@@ -137,6 +138,15 @@ bash saycheese.sh
 fi
 
 if [ $pil = 8 ]
+then
+clear
+git clone https://github.com/404rgr/webdav77
+cd webdav77
+chmod 777 webdav77.sh
+bash install.sh
+fi
+
+if [ $pil = 9 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
