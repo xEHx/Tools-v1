@@ -151,10 +151,9 @@ fi
 if [ $pil = 9 ]
 then
 clear
-git clone https://github.com/Ubaii/script-deface-creator
-cd script-deface-creator
-chmod +x *
-python2 create.py
+git clone https://github.com/muhammadfathul/FBH
+cd FBH
+bash setup
 fi
 
 if [ $pil = 10 ]
