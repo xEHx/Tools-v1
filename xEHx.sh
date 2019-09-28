@@ -151,10 +151,10 @@ fi
 if [ $pil = 9 ]
 then
 clear
-git clone https://github.com/4L13199/LITESCRIPT
-cd LITESCRIPT
-chmod 777 LITESCRIPT.py
-python2 LITESCRIPT.py
+git clone https://github.com/Ubaii/script-deface-creator/blob/master/create.py
+cd script-deface-creator
+chmod +x *
+python2 create.py
 fi
 
 if [ $pil = 10 ]
