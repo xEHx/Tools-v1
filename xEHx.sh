@@ -148,7 +148,7 @@ chmod 777 webdav77.sh
 bash install.sh
 fi
 
-if [ $pil = 8 ]
+if [ $pil = 9 ]
 then
 clear
 git clone https://github.com/zigoo0/webpwn3r
