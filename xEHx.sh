@@ -59,7 +59,7 @@ echo $cy "[1]"$bi" Brute Force Facebook"
 echo $cy "[2]"$i" Spam Chat"
 echo $cy "[3]"$me" Skull Project"
 echo $cy "[4]"$ku" Alice"
-echo $cy "[5]"$pur" SPY"
+echo $cy "[5]"$pur" DDOS Attack"
 echo $cy "[6]"$pu" Virus Maker"
 echo $cy "[7]"$cy" Camera Hack"
 echo $cy "[8]"$me" Web Deface"
@@ -107,9 +107,10 @@ fi
 if [ $pil = 5 ]
 then
 clear
-git clone https://github.com/zlucifer/paladin_project
-cd paladin_project
-bash,paladin.sh
+pkg install python
+git clone https://github.com/cyweb/hammer
+cd hammer
+python hammer.py
 fi
 
 if [ $pil = 6 ]
