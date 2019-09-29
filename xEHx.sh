@@ -49,32 +49,21 @@ echo $me ""
 echo $me ""
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $i "CREATOR  : xEHx"
-echo $i "TOOLS    : INSTALLER (7 tools)"
+echo $i "TOOLS    : INSTALLER"
 echo $i "GMAIL    : xEHx.com@gmail.com"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $cy""
 echo $cy""
-echo $cy "###TOOLS LIST###"
+echo $cy " ___TOOL LIST___"
 echo $cy "[1]"$bi" Brute Force Facebook"
-echo "==================================================" 
 echo $cy "[2]"$i" Spam Chat"
-echo "==================================================" 
 echo $cy "[3]"$me" Skull Project"
-echo "==================================================" 
 echo $cy "[4]"$ku" Alice"
-echo "==================================================" 
 echo $cy "[5]"$pur" SPY"
-echo "==================================================" 
 echo $cy "[6]"$pu" Trap Project"
-echo "==================================================" 
 echo $cy "[7]"$cy" Camera Hack"
-echo "==================================================" 
 echo $cy "[8]"$me" Web Deface"
-echo "=================================================="
-echo $cy "[9]"$pu" Deface Script Maker"
-echo "=================================================="
-echo $cy "[10]"$me" EXIT"
-echo "==================================================" 
+echo $cy "[9]"$pu" EXIT"
 echo 
 echo 
 echo $cy"┌==="$bi"[ xEHx ]"
@@ -149,14 +138,6 @@ bash install.sh
 fi
 
 if [ $pil = 9 ]
-then
-clear
-git clone https://github.com/muhammadfathul/FBH
-cd FBH
-bash setup
-fi
-
-if [ $pil = 10 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
