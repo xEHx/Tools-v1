@@ -51,6 +51,7 @@ echo $cy "━━━━━━━━━━━━━━━━━━━━━━━�
 echo $i "CREATOR  : xEHx"
 echo $i "TOOLS    : INSTALLER"
 echo $i "GMAIL    : xEHx.com@gmail.com"
+echo $i "TEAM     : HackCat"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $cy""
 echo $cy""
