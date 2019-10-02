@@ -92,12 +92,13 @@ echo $cy " ___TOOL LIST___"
 echo $cy "[1]"$bi" FACEBOOK HACK"
 echo $cy "[2]"$i" Spam Chat"
 echo $cy "[3]"$me" Skull Project"
-echo $cy "[4]"$ku" Alice"
+echo $cy "[4]"$ku" Phising Web Maker"
 echo $cy "[5]"$pur" DDOS Attack"
 echo $cy "[6]"$pu" Virus Maker"
 echo $cy "[7]"$cy" Camera Hack"
 echo $cy "[8]"$me" Web Deface"
-echo $cy "[9]"$pu" EXIT"
+echo $cy "[9]"$i" Join HackCat"
+echo $cy "[10]"$pu" EXIT"
 echo 
 echo 
 echo $cy"┌==="$bi"[ xEHx ]"
@@ -126,9 +127,9 @@ fi
 if [ $pil = 3 ]
 then
 clear
-git clone https://github.com/zlucifer/skull_project
-cd skull_project
-bash skull.sh
+git clone https://github.com/Zen-Clay/zenphis
+cd zenphis
+sh zenphis.sh
 fi
 
 if [ $pil = 4 ]
@@ -183,6 +184,15 @@ bash install.sh
 fi
 
 if [ $pil = 9 ]
+then
+clear
+echo $me "LOADING...."
+sleep 3
+echo $me "HERE,COPY THIS!..."
+echo $me "H4ckCat.000webhostapp.com"
+fi
+
+if [ $pil = 10 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
