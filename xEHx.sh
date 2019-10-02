@@ -189,7 +189,7 @@ clear
 echo $me "LOADING...."
 sleep 3
 echo $me "HERE,COPY THIS!..."
-echo $me "H4ckCat.000webhostapp.com"
+echo $me "===>>> H4ckCat.000webhostapp.com"
 fi
 
 if [ $pil = 10 ]
