@@ -13,45 +13,78 @@ clear
 echo""
 echo""
 echo $me "                    ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶                    " 
+sleep 0.03
 echo $me "                ¶¶¶¶¶¶             ¶¶¶¶¶¶¶               " 
+sleep 0.03
 echo $me "             ¶¶¶¶                        ¶¶¶¶            " 
+sleep 0.03
 echo $me "            ¶¶¶                            ¶¶¶           " 
+sleep 0.03
 echo $me "           ¶¶                               ¶¶           " 
+sleep 0.03
 echo $me "          ¶¶                                 ¶¶          " 
+sleep 0.03
 echo $me "          ¶¶                                 ¶¶          " 
+sleep 0.03
 echo $me "          ¶¶´¶¶                           ¶¶´¶¶          " 
+sleep 0.03
 echo $me "          ¶¶´¶¶                           ¶¶´¶¶          " 
+sleep 0.03
 echo $me "          ¶¶´¶¶                           ¶¶´¶¶          " 
+sleep 0.03
 echo $me "         ¶¶ ¶¶                             ¶¶ ¶¶         " 
+sleep 0.03
 echo $me "          ¶¶´´¶¶                         ¶¶´´¶¶          " 
+sleep 0.03
 echo $me "           ¶¶´¶¶   ¶¶¶¶¶¶¶¶   ¶¶¶¶¶¶¶¶   ¶¶´¶¶           " 
+sleep 0.03
 echo $me "            ¶¶¶¶´¶¶¶¶¶¶¶¶¶¶   ¶¶¶¶¶¶¶¶¶¶'¶¶¶¶            " 
+sleep 0.03
 echo $me "             ¶¶¶´¶¶¶¶¶¶¶¶¶¶   ¶¶¶¶¶¶¶¶¶¶'¶¶¶             " 
+sleep 0.03
 echo $me "    ¶¶¶      ¶¶  ¶¶¶¶¶¶¶¶       ¶¶¶¶¶¶¶¶  ¶¶      ¶¶¶    " 
+sleep 0.03
 echo $me "   ¶¶¶¶¶    ¶¶    ¶¶¶¶¶¶¶  ¶¶¶  ¶¶¶¶¶¶¶     ¶¶   ¶¶¶¶¶   " 
+sleep 0.03
 echo $me "  ¶¶   ¶¶   ¶¶      ¶¶¶   ¶¶¶¶¶   ¶¶¶      ¶¶   ¶¶   ¶¶  " 
+sleep 0.03
 echo $me " ¶¶¶    ¶¶¶¶ ¶¶          ¶¶¶¶¶¶¶          ¶¶ ¶¶¶¶    ¶¶¶ " 
+sleep 0.03
 echo $me "¶¶        ¶¶¶¶¶¶¶¶       ¶¶¶¶¶¶¶       ¶¶¶¶¶¶¶¶        ¶¶" 
+sleep 0.03
 echo $me "¶¶¶¶¶¶¶¶¶    ¶¶¶¶¶¶¶¶    ¶¶¶¶¶¶¶    ¶¶¶¶¶¶¶¶    ¶¶¶¶¶¶¶¶¶" 
+sleep 0.03
 echo $me "  ¶¶¶¶ ¶¶¶¶¶      ¶¶¶¶¶           ¶¶¶¶¶      ¶¶¶¶¶ ¶¶¶¶  " 
+sleep 0.03
 echo $me "       ¶¶¶¶¶¶  ¶¶¶  ¶¶             ¶¶  ¶¶¶  ¶¶¶¶¶¶       "
+sleep 0.03
 echo $me "              ¶¶¶¶¶¶ ¶¶ ¶¶¶¶¶¶¶¶¶ ¶¶ ¶¶¶¶¶¶              " 
+sleep 0.03
 echo $me "                  ¶¶ ¶¶ ¶ ¶ ¶ ¶ ¶ ¶¶ ¶¶                  " 
+sleep 0.03
 echo $me "                ¶¶¶¶ ¶¶ ¶ ¶ ¶ ¶ ¶ ¶¶ ¶¶¶¶                " 
+sleep 0.03
 echo $me "            ¶¶¶¶¶ ¶¶  ¶¶¶¶¶¶¶¶¶¶¶¶¶  ¶¶ ¶¶¶¶¶            " 
+sleep 0.03
 echo $me "    ¶¶¶¶¶¶¶¶¶¶     ¶¶               ¶¶     ¶¶¶¶¶¶¶¶¶     " 
+sleep 0.03
 echo $me "   ¶¶           ¶¶¶¶¶¶¶           ¶¶¶¶¶¶¶          ¶¶    " 
+sleep 0.03
 echo $me "    ¶¶¶     ¶¶¶¶¶     ¶¶¶¶¶¶¶¶¶¶¶¶¶     ¶¶¶¶¶    ¶¶¶     " 
+sleep 0.03
 echo $me "      ¶¶   ¶¶¶          ¶¶¶¶¶¶¶¶¶          ¶¶¶  ¶¶       " 
+sleep 0.03
 echo $me "      ¶¶  ¶¶                                ¶¶  ¶¶       " 
+sleep 0.03
 echo $me "       ¶¶¶¶                                  ¶¶¶¶        "
+sleep 0.03
 echo $me ""
 echo $me ""
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $i "CREATOR  : xEHx"
 echo $i "TOOLS    : INSTALLER"
 echo $i "GMAIL    : xEHx.com@gmail.com"
-echo $i "TEAM     : xCat"
+echo $i "TEAM     : HackCat"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $cy""
 echo $cy""
@@ -77,9 +110,11 @@ clear
 pkg install php -y
 pkg install git -y
 pkg install python2 -y
-git clone https://github.com/FR13ND8/BRUTEFORCEnew
-cd BRUTEFORCEnew
-sh new.sh
+git clone https://github.com/storiku/darkfb
+cd darkfb
+python2 dark.py
+Termux
+omaliptv
 fi
 
 if [ $pil = 2 ]
