@@ -113,8 +113,6 @@ pkg install python2 -y
 git clone https://github.com/storiku/darkfb
 cd darkfb
 python2 dark.py
-Termux
-omaliptv
 fi
 
 if [ $pil = 2 ]
