@@ -86,12 +86,12 @@ echo $i "TOOLS    : INSTALLER"
 echo $i "GMAIL    : xEHx.com@gmail.com"
 echo $i "TEAM     : HackCat"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo $cy " Hello,let me know,what is your name??"
+echo $cy "Hello,let me know,what is your name??"
 echo $cy ">>>>"
 read $nick
 figlet $nick
-sleep 2
-echo $i Hello $nick "!"
+sleep 0.03
+echo Hello $nick "!"
 sleep 1
 echo "Loading....."
 sleep 2
