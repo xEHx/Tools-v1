@@ -113,7 +113,7 @@ pkg install git -y
 pkg install python2 -y
 git clone https://github.com/saydog/dark-king
 cd dark-king
-python2 dark.py
+python2 dog.py
 fi
 
 if [ $pil = 2 ]
