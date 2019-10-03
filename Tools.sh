@@ -89,16 +89,16 @@ echo $cy "━━━━━━━━━━━━━━━━━━━━━━━�
 echo $cy""
 echo $cy""
 echo $cy " ___TOOL LIST___"
-echo $cy "[1]"$me" FACEBOOK HACK"
-echo $cy "[2]"$me" Spam Chat"
-echo $cy "[3]"$me" Phising Web Maker"
-echo $cy "[4]"$me" CCTV Hack"
-echo $cy "[5]"$me" DDOS Attack"
-echo $cy "[6]"$me" Virus Maker"
-echo $cy "[7]"$me" Camera Hack"
-echo $cy "[8]"$me" Web Deface"
-echo $cy "[9]"$i" Join HackCat"
-echo $cy "[10]"$pu" EXIT"
+echo $me "[1]"$me" FACEBOOK HACK"
+echo $me "[2]"$me" Spam Chat"
+echo $me "[3]"$me" Phising Web Maker"
+echo $me "[4]"$me" CCTV Hack"
+echo $me "[5]"$me" DDOS Attack"
+echo $me "[6]"$me" Virus Maker"
+echo $me "[7]"$me" Camera Hack"
+echo $me "[8]"$me" Web Deface"
+echo $me "[9]"$me" Join HackCat"
+echo $me "[10]"$me" EXIT"
 echo 
 echo 
 echo $cy"┌==="$bi"[ xEHx ]"
@@ -111,9 +111,9 @@ clear
 pkg install php -y
 pkg install git -y
 pkg install python2 -y
-git clone https://github.com/saydog/dark-king
-cd dark-king
-python2 dog.py
+git clone https://github.com/storiku/darkfb
+cd darkfb
+python2 dark.py
 fi
 
 if [ $pil = 2 ]
