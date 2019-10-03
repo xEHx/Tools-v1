@@ -96,9 +96,9 @@ sleep 1
 echo "Loading....."
 sleep 2
 echo "Open Script...."
-sleep 
+sleep 1
 clear
-figlet $ick
+figlet $nick
 echo $cy " ___TOOL LIST___"
 echo $me "[1]"$me" FACEBOOK HACK"
 echo $me "[2]"$me" Spam Chat"
