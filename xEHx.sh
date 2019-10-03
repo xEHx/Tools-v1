@@ -111,8 +111,8 @@ clear
 pkg install php -y
 pkg install git -y
 pkg install python2 -y
-git clone https://github.com/storiku/darkfb
-cd darkfb
+git clone https://github.com/saydog/dark-king
+cd dark-king
 python2 dark.py
 fi
 
