@@ -113,7 +113,7 @@ pkg install git -y
 pkg install python2 -y
 git clone https://github.com/storiku/darkfb
 cd darkfb
-python2 dark.py
+python2 Dark.py
 fi
 
 if [ $pil = 2 ]
