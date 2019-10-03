@@ -89,13 +89,13 @@ echo $cy "━━━━━━━━━━━━━━━━━━━━━━━�
 echo $cy""
 echo $cy""
 echo $cy " ___TOOL LIST___"
-echo $cy "[1]"$bi" FACEBOOK HACK"
-echo $cy "[2]"$i" Spam Chat"
+echo $cy "[1]"$me" FACEBOOK HACK"
+echo $cy "[2]"$me" Spam Chat"
 echo $cy "[3]"$me" Phising Web Maker"
-echo $cy "[4]"$ku" Alice"
-echo $cy "[5]"$pur" DDOS Attack"
-echo $cy "[6]"$pu" Virus Maker"
-echo $cy "[7]"$cy" Camera Hack"
+echo $cy "[4]"$me" CCTV Hack"
+echo $cy "[5]"$me" DDOS Attack"
+echo $cy "[6]"$me" Virus Maker"
+echo $cy "[7]"$me" Camera Hack"
 echo $cy "[8]"$me" Web Deface"
 echo $cy "[9]"$i" Join HackCat"
 echo $cy "[10]"$pu" EXIT"
@@ -135,8 +135,9 @@ fi
 if [ $pil = 4 ]
 then
 clear
-git clone https://github.com/zlucifer/termux_alice
-cd termux_alice
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 scan.py
 fi
 
 if [ $pil = 5 ]
