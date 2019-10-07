@@ -10,6 +10,11 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 echo
 clear
+pkg install python python2
+pkg install figlet
+pkg install ruby
+gem install lolcat
+clear
 echo""
 echo""
 echo $me "                    ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶                    " 
@@ -108,8 +113,9 @@ echo $me "[5]"$me" DDOS Attack"
 echo $me "[6]"$me" Virus Maker"
 echo $me "[7]"$me" Camera Hack"
 echo $me "[8]"$me" Web Deface"
-echo $me "[9]"$me" Join HackCat"
-echo $me "[10]"$me" EXIT"
+echo $me "[9]"$me" Deface Script Maker"
+echo $me "[10]"$me" Join HackCat"
+echo $me "[11]"$me" EXIT"
 echo 
 echo 
 echo $cy"┌==="$bi"[ xEHx ]"
@@ -198,13 +204,21 @@ fi
 if [ $pil = 9 ]
 then
 clear
+git clone https://github.com/4L13199/LITESCRIPT
+cd LITESCRIPT
+python2 LITESCRIPT.py
+fi
+
+if [ $pil = 10 ]
+then
+clear
 echo $me "LOADING...."
 sleep 3
 echo $me "HERE,COPY THIS!..."
 echo $me "===>>> H4ckCat.000webhostapp.com"
 fi
 
-if [ $pil = 10 ]
+if [ $pil = 11 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
