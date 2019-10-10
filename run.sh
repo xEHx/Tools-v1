@@ -92,8 +92,10 @@ echo $i "GMAIL    : xEHx.com@gmail.com"
 echo $i "TEAM     : HackCat"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $cy "Hello,let me know,what is your name??"
-echo $cy ">>>>"
-read nick
+echo $me "---[Your Name]"
+echo $me "|"
+echo $me "|"
+read -p"-->>>" nick;
 figlet $nick
 sleep 0.03
 echo Hello $nick "!"
@@ -136,9 +138,13 @@ fi
 if [ $pil = 2 ]
 then
 clear
-git clone https://github.com/zlucifer/troll_project
-cd troll_project
-bash troll.sh
+apt install python
+pip install requests
+pip install --upgrade pip
+clear
+git clone https://github.com/TermuxArt/Spammer
+cd Spammer
+python spam.py
 fi
 
 if [ $pil = 3 ]
