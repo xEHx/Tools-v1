@@ -92,8 +92,6 @@ echo $i "GMAIL    : xEHx.com@gmail.com"
 echo $i "TEAM     : HackCat"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $cy "Hello,let me know,what is your name??"
-echo $me "┌===[Your Name]"
-echo $me "¦"
 read -p">>>" nick;
 figlet $nick
 sleep 0.03
