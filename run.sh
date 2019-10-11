@@ -87,7 +87,7 @@ echo $me ""
 echo $me ""
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo $i "CREATOR  : xEHx"
-echo $i "TOOLS    : INSTALLER"
+echo $i "YOUTUBE  : (Wait)"
 echo $i "GMAIL    : xEHx.com@gmail.com"
 echo $i "TEAM     : HackCat"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
@@ -113,8 +113,9 @@ echo $me "[6]"$me" Virus Maker"
 echo $me "[7]"$me" Camera Hack"
 echo $me "[8]"$me" Web Deface"
 echo $me "[9]"$me" Deface Script Maker"
-echo $me "[10]"$me" Join HackCat"
-echo $me "[11]"$me" EXIT"
+echo $me "[10]"$me"Bug Hunter Tools"
+echo $me "[11]"$me" Join HackCat"
+echo $me "[12]"$me" EXIT"
 echo 
 echo 
 echo $cy"┌==="$bi"[ xEHx ]"
@@ -215,13 +216,21 @@ fi
 if [ $pil = 10 ]
 then
 clear
+git clone https://github.com/thehackingsage/bughunter
+cd bughunter
+python2 bughunter.py
+fi
+
+if [ $pil = 11 ]
+then
+clear
 echo $me "LOADING...."
 sleep 3
 echo $me "HERE,COPY THIS!..."
 echo $me "===>>> H4ckCat.000webhostapp.com"
 fi
 
-if [ $pil = 11 ]
+if [ $pil = 12 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
@@ -230,7 +239,7 @@ echo $cy"Thanks for use my script"
 sleep 2
 echo $i"If have some issue,DM me on Gmail only"
 sleep 2
-echo $i" GMAIL :"$i" xEHx.com@gmail.com"
+echo $i" GMAIL   :"$i" xEHx.com@gmail.com"
 echo $bi"CREATOR :"$i" xEHx"
 exit
 fi
