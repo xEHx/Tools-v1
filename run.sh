@@ -103,7 +103,7 @@ echo "Open Script...."
 sleep 1
 clear
 figlet $nick
-echo $cy " ___TOOL LIST___"
+echo $cy " ___TOOLS LIST___"
 echo $me "[1]"$me" FACEBOOK HACK"
 echo $me "[2]"$me" Spam Chat"
 echo $me "[3]"$me" Phising Web Maker"
@@ -113,9 +113,9 @@ echo $me "[6]"$me" Virus Maker"
 echo $me "[7]"$me" Camera Hack"
 echo $me "[8]"$me" Web Deface"
 echo $me "[9]"$me" Deface Script Maker"
-echo $me "[10]"$me"Bug Hunter Tools"
-echo $me "[11]"$me" Join HackCat"
-echo $me "[12]"$me" EXIT"
+echo $me "[10]"$me" Virtex maker (Virus Text)"
+echo $me "[99]"$me" Join HackCat"
+echo $me "[00]"$me" EXIT"
 echo 
 echo 
 echo $cy"┌==="$bi"[ xEHx ]"
@@ -216,12 +216,13 @@ fi
 if [ $pil = 10 ]
 then
 clear
-git clone https://github.com/thehackingsage/bughunter
-cd bughunter
-python2 bughunter.py
-fi
+git clone https://github.com/muhammadfathul/VIRTEX
+cd VIRTEX
+Chmod +x *
+sh virtex.sh
+if
 
-if [ $pil = 11 ]
+if [ $pil = 99 ]
 then
 clear
 echo $me "LOADING...."
@@ -230,7 +231,7 @@ echo $me "HERE,COPY THIS!..."
 echo $me "===>>> H4ckCat.000webhostapp.com"
 fi
 
-if [ $pil = 12 ]
+if [ $pil = 00 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
