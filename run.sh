@@ -86,8 +86,8 @@ sleep 0.03
 echo $me ""
 echo $me ""
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo $i "CREATOR  : xEHx"
-echo $i "YOUTUBE  : (Wait)"
+echo $i "CREATOR  : HIDDEN"
+echo $i "YOUTUBE  : HIDDEN"
 echo $i "GMAIL    : xEHx.com@gmail.com"
 echo $i "TEAM     : HackCat"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
@@ -114,8 +114,8 @@ echo $me "[7]"$me" Camera Hack"
 echo $me "[8]"$me" Web Deface"
 echo $me "[9]"$me" Deface Script Maker"
 echo $me "[10]"$me" Virtex maker (Virus Text)"
-echo $me "[99]"$me" Join HackCat"
-echo $me "[00]"$me" EXIT"
+echo $me "[99]"$me" Join HackCat TEAM"
+echo $me "[EXIT]"
 echo 
 echo 
 echo $cy"┌==="$bi"[ xEHx ]"
@@ -231,7 +231,7 @@ echo $me "HERE,COPY THIS!..."
 echo $me "===>>> H4ckCat.000webhostapp.com"
 fi
 
-if [ $pil = 00 ]
+if [ $pil = EXIT ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
@@ -241,7 +241,7 @@ sleep 2
 echo $i"If have some issue,DM me on Gmail only"
 sleep 2
 echo $i" GMAIL   :"$i" xEHx.com@gmail.com"
-echo $bi"CREATOR :"$i" xEHx"
+echo $bi"CREATOR :"$i" HIDDEN"
 exit
 fi
 
